@@ -1,7 +1,8 @@
 # Module Swapper
 
 Sample prototype PRISM WPF application which detects diferent versions of the same module at runtime.
-(This is just a first version sample to test out some ideas)
+
+This is just a test sample with lot to improve but could serve as a starting point or could help to give some ideas.
 
 e.g:
 ModuleA v1
