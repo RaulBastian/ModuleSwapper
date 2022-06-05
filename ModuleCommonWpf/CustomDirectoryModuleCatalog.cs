@@ -60,7 +60,7 @@ namespace ModuleCommon
                 {
                     ModuleName = moduleType.Name,
                     ModuleType = moduleType.AssemblyQualifiedName,
-                    Ref = $"file://{a.Location}",
+                    Ref = $"file://{e.FullPath}",
                 });
 
                 var manager = container.Resolve<IModuleManager>();

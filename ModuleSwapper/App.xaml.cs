@@ -34,7 +34,7 @@ namespace ModuleSwapper
 
         protected override IModuleCatalog CreateModuleCatalog()
         {
-            return new CustomDirectoryModuleCatalog(Container) { ModulePath = @"..\\..\\..\\..\\ModulesOutput\Debug\net6.0-windows" };
+            return new CustomDirectoryModuleCatalog(Container) { ModulePath = @"..\\..\\..\\..\\ModulesOutput" };
         }
     }
 }
